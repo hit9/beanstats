@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+/**
+ * Little beanstalkd console tool, it watches a single tube and show you
+ * how fast jobs are going in and out of your queue.
+ * Copyright (c) Eleme, Inc https://github.com/eleme/beanstats
+ */
 
 var fivebeans = require('fivebeans');
 var optimist = require('optimist');

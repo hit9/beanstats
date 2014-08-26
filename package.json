@@ -1,7 +1,13 @@
 {
   "name": "beanstats",
-  "version": "0.0.1",
-  "description": "beanstalkd tube stats monitor",
+  "version": "0.0.2",
+  "description": "little beanstalkd tube stats monitor",
+  "author": "hit9 <nz2324@126.com>",
+  "keywords": ["beanstalkd", "tube", "stats", "monitor"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eleme/beanstats.git"
+  },
   "dependencies": {
     "fivebeans": "~1.1.1",
     "optimist": "~0.6.1",
