@@ -26,7 +26,10 @@ if (argv.h === true) {
 var tube = argv._[0] || 'default';
 var host = argv.h;
 var port = parseInt(argv.p, 10);
-var interval = parseInt(argv.t);
+var interval = parseInt(argv.t, 10);
+
+if (isNaN(port)) port = 11300;
+if (isNaN(interval)) interval = 5000;
 
 /**
  * beanstalk client
@@ -120,7 +123,7 @@ function format(vals, size) {
 
 connect(function(){
   init(function(){
-    var tabSize = 10;  // min tab size
+    var tabSize = 9;  // min tab size
 
     for (var key in stats) {
       if (tabSize < key.length) {
