@@ -1,7 +1,7 @@
 beanstats
 ----------
 
-Little beanstalkd console tool, it watches a single tube and show you
+Little beanstalkd console tool, it will watch a single tube and show you
 how fast jobs are going in and out of your queue.
 
 Install
