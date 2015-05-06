@@ -2,7 +2,7 @@
   "name": "beanstats",
   "version": "0.0.3",
   "description": "little beanstalkd tube stats monitor",
-  "author": "hit9 <nz2324@126.com>",
+  "author": "hit9 <hit9@icloud.com>",
   "keywords": ["beanstalkd", "tube", "stats", "monitor"],
   "repository": {
     "type": "git",

@@ -21,4 +21,4 @@ $ beanstats mytube -p 11300
 License
 --------
 
-MIT. Copyright (c) Eleme, Inc.
+MIT. Copyright (c) Chao Wang <hit9@icloud.com>
